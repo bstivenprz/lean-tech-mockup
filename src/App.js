@@ -75,7 +75,7 @@ function App() {
         </div>
         <div className="row justify-content-center align-items-center">
           <img className="github-icon" src={Github} alt="Github Icon"/>
-          <a className="github-account" href="#">bstivenprz</a>
+          <a className="github-account" href="https://github.com/bstivenprz/lean-tech-mockup" target="_blank">bstivenprz</a>
         </div>
       </div>
     </div>
