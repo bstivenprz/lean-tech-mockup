@@ -1,33 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .App {
+  background-color: #E6E6E6;
+  margin: 30px 50px;
+  padding: 20px 0px;
+}
+
+.avatar {
+  width: 90px;
+  margin-bottom: 32px;
+}
+
+
+.side-bar {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  margin: 10px;
+  border-color: #858585;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-group {
+  margin: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.t-title {
+  margin: 0;
+  font-size: 16px;
+  color: #686868;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-search {
+  margin: 12px 0;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.form-search input {
+  width: 320px;
+}
+
+.has-search .form-control {
+    text-align: center;
+    font-family:Arial, FontAwesome;
+    font-size: 12px;
+}
+
+.has-search .form-control-feedback {
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btn-light:hover {
+  background-color: #193948;
+  color: #fff;
+}
+
+.active {
+  background-color: #193948;
+}
+
+.active a {
+  color: #fff;
+}
+
+.nav-item:hover {
+  background-color: #D9DADB;
+}
+
+.nav-icon::before {
+  font-size: 22px !important;
+}
+
+.nav-item {
+  padding: 5px 0;
+}
+
+.nav-item p {
+  margin: 0;
+}
+
+a {
+  color: #383838;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #193948;
+  text-decoration: none;
+}
+
+.toggle-filters {
+  margin-top: 32px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.vl {
+  border-left: 1px solid #858585;
+  margin-top: 9em;
+}
+
+.buttom-float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#EE8D38;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.buttom-float-icon {
+  margin-top: 12px;
+  color: #fff;
+}
+
+.fa-plus::before {
+  font-size: 3em;
+}
+
+.github-icon {
+  width: 22px;
+}
+
+.github-account {
+  font-size: 22px;
+  margin: 5px 10px;
+  color: #193948;
+  font-weight: 900;
 }

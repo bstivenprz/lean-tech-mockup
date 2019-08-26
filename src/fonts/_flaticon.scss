@@ -1,0 +1,70 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 24/08/2019 05:52
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-invencion:before { content: "\f100"; }
+.flaticon-casa:before { content: "\f101"; }
+.flaticon-sobre:before { content: "\f102"; }
+.flaticon-configuraciones:before { content: "\f103"; }
+.flaticon-estrella:before { content: "\f104"; }
+.flaticon-avatar:before { content: "\f105"; }
+.flaticon-lupa:before { content: "\f106"; }
+.flaticon-senal-de-flecha-hacia-abajo-para-navegar:before { content: "\f107"; }
+.flaticon-agregar-boton-dentro-del-circulo-negro:before { content: "\f108"; }
+.flaticon-exito:before { content: "\f109"; }
+.flaticon-cursor:before { content: "\f10a"; }
+.flaticon-sale-tag:before { content: "\f10b"; }
+.flaticon-pagina-diaria-del-calendario-en-el-dia-31:before { content: "\f10c"; }
+.flaticon-corazon:before { content: "\f10d"; }
+.flaticon-mas-boton-de-tres-puntos:before { content: "\f10e"; }
+    
+    $font-Flaticon-invencion: "\f100";
+    $font-Flaticon-casa: "\f101";
+    $font-Flaticon-sobre: "\f102";
+    $font-Flaticon-configuraciones: "\f103";
+    $font-Flaticon-estrella: "\f104";
+    $font-Flaticon-avatar: "\f105";
+    $font-Flaticon-lupa: "\f106";
+    $font-Flaticon-senal-de-flecha-hacia-abajo-para-navegar: "\f107";
+    $font-Flaticon-agregar-boton-dentro-del-circulo-negro: "\f108";
+    $font-Flaticon-exito: "\f109";
+    $font-Flaticon-cursor: "\f10a";
+    $font-Flaticon-sale-tag: "\f10b";
+    $font-Flaticon-pagina-diaria-del-calendario-en-el-dia-31: "\f10c";
+    $font-Flaticon-corazon: "\f10d";
+    $font-Flaticon-mas-boton-de-tres-puntos: "\f10e";

@@ -1,0 +1,76 @@
+
+.vl-2 {
+  border-right: 1px solid #E6E6E6;
+  height: 80px;
+}
+
+
+.delivery-info {
+  padding: 0 16px;
+  text-align: center;
+  margin: 22px 0;
+}
+
+.delivery-icon-check::before {
+  font-size: 2em !important;
+  color: #EE8D38;
+}
+
+.delivery-date p {
+  font-size: 14px;
+  color: #858585;
+  margin: 0;
+}
+
+.card-info {
+  padding: 18px 12px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+.delivery-locations {
+  margin: 0 16px;
+}
+
+.flaticon-cursor {
+  color: #AEAEAE  ;
+}
+
+.flaticon-cursor::before {
+  font-size: 1.3em !important;
+}
+
+.delivery-locations-text p {
+  font-size: 14px;
+  color: #858585;
+  margin: 0;
+}
+
+.flaticon-senal-de-flecha-hacia-abajo-para-navegar {
+  color: #EAA75D;
+}
+
+.flaticon-senal-de-flecha-hacia-abajo-para-navegar::before {
+  font-size: 1.5em !important;
+}
+
+.delivery-truck {
+  width: 4em;
+  margin: 0 20px;
+}
+
+.delivery-cost {
+  font-size: 2em;
+  color: #858585;
+  margin: 0 18px;
+}
+
+.badge-danger {
+  margin: 0 8px;
+}
+
+.flaticon-mas-boton-de-tres-puntos::before {
+  text-align: center;
+  margin: 8px;
+  color: #858585;
+}
